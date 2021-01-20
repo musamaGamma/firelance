@@ -1,0 +1,17 @@
+.footer {
+    height: 10vh;
+    background-color: #303841;
+    border-top: 4px solid #be3144;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    > div {
+        padding: 1rem;
+    }
+    @include breakpoint-down(small) {
+        font-size: 1.2rem !important;
+    }
+}
